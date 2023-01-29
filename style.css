@@ -1,0 +1,39 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background image and make it cover the entire body */
+body {
+    background-image: url('https://images2.alphacoders.com/941/thumb-1920-941898.jpg');
+    background-size: cover;
+}
+
+/* Style the canvas element */
+canvas {
+    display: block;
+    margin: 0 auto;
+    background-color: #ddd;
+    border: 1px solid #333;
+    position: relative;
+}
+
+/* Style the counter element */
+#counter {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+/* Style the container element */
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
